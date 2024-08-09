@@ -1,0 +1,125 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+A06     A06      .              non-polymer     13     8     .     
+#
+data_comp_A06
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+A06     C1      C       CH3     0       -2.822      0.064       -0.124      
+A06     S1      S       S2      0       -1.595      -0.900      -1.013      
+A06     C2      C       CR6     0       0.020       -0.537      -0.372      
+A06     N1      N       NRD6    0       0.689       0.488       -0.927      
+A06     C3      C       CR16    0       1.908       0.737       -0.421      
+A06     C4      C       CR16    0       2.423       -0.036      0.617       
+A06     N2      N       NRD6    0       1.713       -1.029      1.117       
+A06     N3      N       NRD6    0       0.475       -1.306      0.625       
+A06     H1      H       H       0       -3.295      0.635       -0.748      
+A06     H2      H       H       0       -2.378      0.609       0.545       
+A06     H3      H       H       0       -3.449      -0.536      0.309       
+A06     H4      H       H       0       2.413       1.446       -0.780      
+A06     H5      H       H       0       3.287       0.142       0.973       
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.aromatic
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+A06          C1          S1      SINGLE       n     1.795  0.0200     1.795  0.0200
+A06          S1          C2      SINGLE       n     1.775  0.0112     1.775  0.0112
+A06          C2          N1      DOUBLE       y     1.336  0.0143     1.336  0.0143
+A06          N1          C3      SINGLE       y     1.340  0.0106     1.340  0.0106
+A06          C3          C4      DOUBLE       y     1.391  0.0100     1.391  0.0100
+A06          C4          N2      SINGLE       y     1.316  0.0100     1.316  0.0100
+A06          N2          N3      DOUBLE       y     1.340  0.0200     1.340  0.0200
+A06          C2          N3      SINGLE       y     1.334  0.0111     1.334  0.0111
+A06          C1          H1      SINGLE       n     1.089  0.0100     0.970  0.0168
+A06          C1          H2      SINGLE       n     1.089  0.0100     0.970  0.0168
+A06          C1          H3      SINGLE       n     1.089  0.0100     0.970  0.0168
+A06          C3          H4      SINGLE       n     1.082  0.0130     0.941  0.0200
+A06          C4          H5      SINGLE       n     1.082  0.0130     0.951  0.0200
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+A06          S1          C1          H1     108.757    3.00
+A06          S1          C1          H2     108.757    3.00
+A06          S1          C1          H3     108.757    3.00
+A06          H1          C1          H2     109.504    1.50
+A06          H1          C1          H3     109.504    1.50
+A06          H2          C1          H3     109.504    1.50
+A06          C1          S1          C2     109.471    3.00
+A06          S1          C2          N1     117.351    3.00
+A06          S1          C2          N3     117.351    3.00
+A06          N1          C2          N3     125.298    1.50
+A06          C2          N1          C3     116.298    1.50
+A06          N1          C3          C4     121.452    1.50
+A06          N1          C3          H4     118.566    1.50
+A06          C4          C3          H4     119.982    1.50
+A06          C3          C4          N2     120.892    1.50
+A06          C3          C4          H5     120.458    1.78
+A06          N2          C4          H5     118.651    2.57
+A06          C4          N2          N3     119.127    3.00
+A06          N2          N3          C2     116.934    1.50
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+A06             sp3_sp3_1          H1          C1          S1          C2     180.000    10.0     3
+A06       const_sp2_sp2_2          S1          C2          N1          C3     180.000     0.0     2
+A06              const_13          S1          C2          N3          N2     180.000     0.0     2
+A06       const_sp2_sp2_3          C4          C3          N1          C2       0.000     0.0     2
+A06       const_sp2_sp2_5          N1          C3          C4          N2       0.000     0.0     2
+A06       const_sp2_sp2_9          C3          C4          N2          N3       0.000     0.0     2
+A06              const_11          C4          N2          N3          C2       0.000     0.0     2
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+A06    plan-1          C2   0.020
+A06    plan-1          C3   0.020
+A06    plan-1          C4   0.020
+A06    plan-1          H4   0.020
+A06    plan-1          H5   0.020
+A06    plan-1          N1   0.020
+A06    plan-1          N2   0.020
+A06    plan-1          N3   0.020
+A06    plan-1          S1   0.020
+loop_
+_pdbx_chem_comp_description_generator.comp_id
+_pdbx_chem_comp_description_generator.program_name
+_pdbx_chem_comp_description_generator.program_version
+_pdbx_chem_comp_description_generator.descriptor
+A06 acedrg               271         "dictionary generator"                  
+A06 acedrg_database      12          "data source"                           
+A06 rdkit                2019.09.1   "Chemoinformatics tool"
+A06 refmac5              5.8.0405    "optimization tool"                     
