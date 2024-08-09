@@ -1,0 +1,158 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+UNL     UNL      .              non-polymer     21     8     .     
+#
+data_comp_UNL
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+UNL     N1      N       NT2     0       2.725       1.329       -0.240      
+UNL     C1      C       CH2     0       2.093       0.044       0.047       
+UNL     C2      C       CH1     0       0.592       0.080       -0.180      
+UNL     C3      C       CH2     0       -0.073      -1.274      0.011       
+UNL     C4      C       CH2     0       -1.591      -1.155      -0.110      
+UNL     C5      C       CH2     0       -2.122      -0.064      0.802       
+UNL     C6      C       CH2     0       -1.368      1.221       0.573       
+UNL     O1      O       O2      0       0.046       1.032       0.744       
+UNL     H1      H       H       0       3.336       1.511       0.369       
+UNL     H2      H       H       0       3.125       1.304       -1.024      
+UNL     H3      H       H       0       2.271       -0.200      0.980       
+UNL     H4      H       H       0       2.489       -0.644      -0.530      
+UNL     H5      H       H       0       0.424       0.391       -1.104      
+UNL     H6      H       H       0       0.262       -1.902      -0.668      
+UNL     H7      H       H       0       0.159       -1.631      0.897       
+UNL     H8      H       H       0       -2.006      -2.009      0.127       
+UNL     H9      H       H       0       -1.830      -0.950      -1.037      
+UNL     H10     H       H       0       -2.023      -0.341      1.737       
+UNL     H11     H       H       0       -3.076      0.078       0.623       
+UNL     H12     H       H       0       -1.682      1.900       1.206       
+UNL     H13     H       H       0       -1.544      1.545       -0.334      
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.aromatic
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+UNL          N1          C1      SINGLE       n     1.461  0.0200     1.461  0.0200
+UNL          C1          C2      SINGLE       n     1.518  0.0102     1.518  0.0102
+UNL          C2          C3      SINGLE       n     1.519  0.0100     1.519  0.0100
+UNL          C3          C4      SINGLE       n     1.526  0.0100     1.526  0.0100
+UNL          C4          C5      SINGLE       n     1.510  0.0200     1.510  0.0200
+UNL          C5          C6      SINGLE       n     1.504  0.0144     1.504  0.0144
+UNL          C6          O1      SINGLE       n     1.435  0.0100     1.435  0.0100
+UNL          C2          O1      SINGLE       n     1.431  0.0135     1.431  0.0135
+UNL          N1          H1      SINGLE       n     1.036  0.0160     0.881  0.0200
+UNL          N1          H2      SINGLE       n     1.036  0.0160     0.881  0.0200
+UNL          C1          H3      SINGLE       n     1.089  0.0100     0.981  0.0171
+UNL          C1          H4      SINGLE       n     1.089  0.0100     0.981  0.0171
+UNL          C2          H5      SINGLE       n     1.089  0.0100     0.990  0.0130
+UNL          C3          H6      SINGLE       n     1.089  0.0100     0.983  0.0124
+UNL          C3          H7      SINGLE       n     1.089  0.0100     0.983  0.0124
+UNL          C4          H8      SINGLE       n     1.089  0.0100     0.979  0.0150
+UNL          C4          H9      SINGLE       n     1.089  0.0100     0.979  0.0150
+UNL          C5         H10      SINGLE       n     1.089  0.0100     0.981  0.0166
+UNL          C5         H11      SINGLE       n     1.089  0.0100     0.981  0.0166
+UNL          C6         H12      SINGLE       n     1.089  0.0100     0.979  0.0115
+UNL          C6         H13      SINGLE       n     1.089  0.0100     0.979  0.0115
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+UNL          C1          N1          H1     110.220    3.00
+UNL          C1          N1          H2     110.220    3.00
+UNL          H1          N1          H2     107.839    3.00
+UNL          N1          C1          C2     111.880    3.00
+UNL          N1          C1          H3     108.828    2.88
+UNL          N1          C1          H4     108.828    2.88
+UNL          C2          C1          H3     109.032    1.50
+UNL          C2          C1          H4     109.032    1.50
+UNL          H3          C1          H4     108.094    1.52
+UNL          C1          C2          C3     112.897    2.14
+UNL          C1          C2          O1     107.107    1.50
+UNL          C1          C2          H5     108.264    1.50
+UNL          C3          C2          O1     109.744    1.50
+UNL          C3          C2          H5     108.642    1.50
+UNL          O1          C2          H5     108.974    1.50
+UNL          C2          C3          C4     110.680    1.50
+UNL          C2          C3          H6     109.424    1.50
+UNL          C2          C3          H7     109.424    1.50
+UNL          C4          C3          H6     109.503    1.50
+UNL          C4          C3          H7     109.503    1.50
+UNL          H6          C3          H7     108.113    1.50
+UNL          C3          C4          C5     110.569    1.50
+UNL          C3          C4          H8     109.570    1.50
+UNL          C3          C4          H9     109.570    1.50
+UNL          C5          C4          H8     109.592    1.50
+UNL          C5          C4          H9     109.592    1.50
+UNL          H8          C4          H9     108.037    1.50
+UNL          C4          C5          C6     109.938    2.48
+UNL          C4          C5         H10     109.616    1.50
+UNL          C4          C5         H11     109.616    1.50
+UNL          C6          C5         H10     109.629    1.50
+UNL          C6          C5         H11     109.629    1.50
+UNL         H10          C5         H11     108.290    2.20
+UNL          C5          C6          O1     110.966    1.64
+UNL          C5          C6         H12     109.421    1.50
+UNL          C5          C6         H13     109.421    1.50
+UNL          O1          C6         H12     109.242    1.50
+UNL          O1          C6         H13     109.242    1.50
+UNL         H12          C6         H13     108.107    1.50
+UNL          C6          O1          C2     111.855    1.86
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+UNL            sp3_sp3_40          C2          C1          N1          H1     180.000    10.0     3
+UNL            sp3_sp3_46          N1          C1          C2          C3     180.000    10.0     3
+UNL             sp3_sp3_4          C1          C2          C3          C4     -60.000    10.0     3
+UNL            sp3_sp3_56          C1          C2          O1          C6      60.000    10.0     3
+UNL            sp3_sp3_10          C2          C3          C4          C5     -60.000    10.0     3
+UNL            sp3_sp3_19          C3          C4          C5          C6      60.000    10.0     3
+UNL            sp3_sp3_28          C4          C5          C6          O1     -60.000    10.0     3
+UNL            sp3_sp3_37          C5          C6          O1          C2      60.000    10.0     3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+UNL    chir_1    C2    O1    C1    C3    negative
+loop_
+_pdbx_chem_comp_description_generator.comp_id
+_pdbx_chem_comp_description_generator.program_name
+_pdbx_chem_comp_description_generator.program_version
+_pdbx_chem_comp_description_generator.descriptor
+UNL acedrg               249         "dictionary generator"                  
+UNL acedrg_database      12          "data source"                           
+UNL rdkit                2019.09.1   "Chemoinformatics tool"
+UNL refmac5              5.8.0352    "optimization tool"                     
